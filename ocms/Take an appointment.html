@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Appointment Page</title>
+</head>
+
+<body bgcolor=green>
+
+<h1 align=center>Online Clinic Appointment System</h1>
+														
+<center>
+
+<table border="4px" style="width:70%">
+  <tr align=center>
+    <td bgcolor=#f1f1c1><a href="Home.php"><b>Home</b></a></td>
+    <td bgcolor=#f1f1c1><a href="Services.html"><b>Services</b></td>
+    <td bgcolor=#f1f1c1><a href="login.html"><b>Log In</b></td>
+    <td bgcolor=#f1f1c1><a href="Contacts.html"><b>Contacts</b></td>
+    <td bgcolor=#f1f1c1><a href="About Us.html"><b>About Us</b></td>
+  </tr>
+</table>
+
+<p></p>
+
+
+<form action="Appointment.php" method="post">
+<h2>Take an appointment</h2>
+<input type="text" name="patient_info" required placeholder="patient's Name" style="height: 45px; width: 370px; text-align: center;">\<br>
+<input type="text" name="contact" required placeholder="contact No." style="height: 45px; width: 370px; text-align: center;">
+<br>
+<input type="text" name="doctor" required placeholder="Doctor's Name" style="height: 45px; width: 370px; text-align: center;"><br>
+<pre>Your Problem :</pre>
+<textarea name="problem" required rows="6" cols="50"></textarea><br><br>
+<INPUT TYPE ="SUBMIT" VALUE ="  Submit Problem  "><br>
+</form>
+</center>
+
+</body>
+</html>
