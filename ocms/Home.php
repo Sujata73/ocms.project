@@ -2,7 +2,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$dbname  = "brajesh";
+$dbname  = "sujata";
 
 $connection = mysqli_connect($hostname,$username,$password,$dbname);
 session_start();
@@ -316,7 +316,7 @@ provided for patients.</p>
 
 <div style = "background-color:#b5dcb3; clear:both">
             <center>
-               Copyright © 2018 OnlineClinicAppointSystem.com
+               Copyright ï¿½ 2018 OnlineClinicAppointSystem.com
             </center>
          </div>
 
